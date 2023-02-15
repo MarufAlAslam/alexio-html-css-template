@@ -1,0 +1,44 @@
+.qr {
+  width: 230px;
+  display: block;
+  margin-left: 0 !important;
+}
+
+#resume .mem img,
+#timeline img {
+  height: 100%;
+  object-fit: cover;
+}
+.fa-rotate-45 {
+  transform: rotate(45deg);
+}
+#timeline .col-md-4.p-3 {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  nav.pages-nav.pages-nav--open {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0 !important;
+    width: 100% !important;
+    z-index: 100000;
+    background: #17b3bf;
+    display: flex;
+    flex-direction: row;
+    top: unset;
+    padding: 0;
+    flex-wrap: nowrap;
+  }
+  .pages-nav__item {
+    display: inline-block !important;
+    width: auto !important;
+  }
+  nav.pages-nav {
+    height: 60px !important;
+    position: fixed !important;
+    top: unset !important;
+    bottom: 0;
+  }
+}
