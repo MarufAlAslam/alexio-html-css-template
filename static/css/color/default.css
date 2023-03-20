@@ -17,3 +17,38 @@
 .theme-bg {
   background: #17b3bf;
 }
+
+@media screen and (max-width: 767px) {
+  .pages-stack.pages-stack--open {
+    margin-top: -230px;
+  }
+  span,
+  p,
+  a {
+    font-size: 16px;
+  }
+  .h2,
+  h2 {
+    font-size: 1.5rem;
+  }
+  .h4,
+  h4 {
+    font-size: 1.1rem;
+  }
+  nav.pages-nav.pages-nav--open {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0 !important;
+    width: 110% !important;
+    z-index: 100000;
+    background: #17b3bf;
+    display: flex;
+    flex-direction: row;
+    top: unset;
+    padding: 0;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-right: 10%;
+  }
+}
